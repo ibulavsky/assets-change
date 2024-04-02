@@ -1,0 +1,46 @@
+{
+  "name": "typescript-express-react",
+  "private": true,
+  "description": "typescript, express, react starter with a shared client/server directory.",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node --  --extensions \".ts\" server/index.ts"
+  },
+  "dependencies": {
+    "@babel/node": "latest",
+    "@babel/plugin-transform-runtime": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/runtime": "latest",
+    "@hot-loader/react-dom": "latest",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "express": "latest",
+    "image-size": "latest",
+    "nodemon": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-middleware": "latest",
+    "webpack-hot-middleware": "latest"
+  },
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "@types/webpack": "latest",
+    "@types/webpack-dev-middleware": "latest",
+    "@types/webpack-hot-middleware": "latest",
+    "babel-loader": "latest",
+    "nodemon": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-middleware": "latest"
+  },
+  "keywords": []
+}
